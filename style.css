@@ -10,8 +10,10 @@ html {
 }
 body {
   font-family: 'ZCOOL XiaoWei', serif;
-  background-image: url('https://www.amazingviralnews.com/wp-content/uploads/2019/07/currency-exchange-Vancouver.jpg');
-  color: rgb(0, 0, 0);
+  background-color: #DDDDDD;
+  opacity: 1;
+  margin: auto;
+ 
 }
 .container {
   width: 500px;
@@ -19,30 +21,31 @@ body {
   user-select: none;
   overflow-x: hidden;
   position: relative;
-  background-image: url('https://www.amazingviralnews.com/wp-content/uploads/2019/07/currency-exchange-Vancouver.jpg') ;
+  background-image: url('') ;
 }
 .header {
-  background-image: url('https://www.amazingviralnews.com/wp-content/uploads/2019/07/currency-exchange-Vancouver.jpg');
+  background-image: url('');
   text-align: center;
   padding: 1.75rem;
+  opacity: 1;
 }
 .header h1 {
   font-size: 2.25rem;
 }
 .date {
-  background-color:rgb(255, 255, 255);
+  
   text-align: right;
   font-size: 0.75rem;
   padding: 0.75rem 2rem 0.75rem 0;
 }
 ul.currencies {
   height: calc(100vh - 40px - 100px - 40px - 58px);
-  background-image: url('https://www.amazingviralnews.com/wp-content/uploads/2019/07/currency-exchange-Vancouver.jpg');
+  background-image: url('');
   padding: 0 1.5rem 1rem 1.5rem;
   overflow-y: auto;
 }
 ul.currencies li {
-  background-image: url('https://www.amazingviralnews.com/wp-content/uploads/2019/07/currency-exchange-Vancouver.jpg');
+  background-image: url('');
   border-radius: 5px;
   list-style: none;
   padding: 1rem 1rem 0.75rem 1rem;
@@ -53,7 +56,7 @@ ul.currencies li:last-child {
   margin-bottom: 0;
 }
 ul.currencies li.base-currency {
-  background-color: #070707;
+ 
 }
 .flag {
   width: 60px;
@@ -75,7 +78,7 @@ ul.currencies li.base-currency {
   font-size: 1.5rem;
   width: 78%;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 5px;
   color: rgb(0, 0, 0);
   padding: 0.3rem;
@@ -117,8 +120,7 @@ ul.add-currency-list {
   position: absolute;
   bottom: 54px;
   left: 105%;
-  background-image: url('https://www.amazingviralnews.com/wp-content/uploads/2019/07/currency-exchange-Vancouver.jpg');
-  color: rgb(0, 0, 0);
+   color: rgb(0, 0, 0);
   width: 100%;
   height: calc(100vh - 40px - 100px - 55px);
   overflow-y: auto;
@@ -127,7 +129,9 @@ ul.add-currency-list {
 ul.add-currency-list li {
   list-style: none;
   padding: 0.75rem;
-  border-bottom: 1px solid #ddd;
+  background-color: cornsilk;
+
+  
 }
 ul.add-currency-list li.disabled {
   opacity: 0.7;
@@ -144,13 +148,13 @@ ul.add-currency-list li span {
 }
 
 .add-currency-btn {
-  background-image: url('https://www.amazingviralnews.com/wp-content/uploads/2019/07/currency-exchange-Vancouver.jpg');
+  background-image: url('');
   color: #fff;
   padding: 1rem;
   font-size: 1.2rem;
   font-weight: bold;
   border: none;
-  border-top: 3px solid #222;
+  
   outline: none;
   width: 100%;
   cursor: pointer;
@@ -167,7 +171,7 @@ ul.add-currency-list li span {
 }
 
 .add-currency-btn.open {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .add-currency-btn.open i {
   opacity: 1;
