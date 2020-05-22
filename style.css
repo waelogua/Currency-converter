@@ -10,7 +10,7 @@ html {
 }
 body {
   font-family: 'ZCOOL XiaoWei', serif;
-  background-color: #DDDDDD;
+  background-image: url('https://i.pinimg.com/originals/c8/d9/ea/c8d9ea97f30d98010d676d503235f911.jpg');
   opacity: 1;
   margin: auto;
  
@@ -40,12 +40,12 @@ body {
 }
 ul.currencies {
   height: calc(100vh - 40px - 100px - 40px - 58px);
-  background-image: url('');
+  
   padding: 0 1.5rem 1rem 1.5rem;
   overflow-y: auto;
 }
 ul.currencies li {
-  background-image: url('');
+  background-color:rgb(255, 255, 255);
   border-radius: 5px;
   list-style: none;
   padding: 1rem 1rem 0.75rem 1rem;
@@ -56,6 +56,7 @@ ul.currencies li:last-child {
   margin-bottom: 0;
 }
 ul.currencies li.base-currency {
+  background-color: rgb(0, 153, 255);
  
 }
 .flag {
@@ -100,11 +101,11 @@ ul.currencies li .close {
   right: 0;
   padding: 0 0.5rem;
   font-size: 1.5rem;
-  color: #666;
+  color: rgb(175, 47, 47);
   cursor: pointer;
 }
 ul.currencies li .close:hover {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 /* Scrollbar */
@@ -120,7 +121,7 @@ ul.add-currency-list {
   position: absolute;
   bottom: 54px;
   left: 105%;
-   color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   width: 100%;
   height: calc(100vh - 40px - 100px - 55px);
   overflow-y: auto;
@@ -129,7 +130,7 @@ ul.add-currency-list {
 ul.add-currency-list li {
   list-style: none;
   padding: 0.75rem;
-  background-color: cornsilk;
+  background-color: rgb(0, 153, 252);
 
   
 }
@@ -149,12 +150,11 @@ ul.add-currency-list li span {
 
 .add-currency-btn {
   background-image: url('');
-  color: #fff;
+  color: rgb(0, 153, 252);
   padding: 1rem;
   font-size: 1.2rem;
   font-weight: bold;
   border: none;
-  
   outline: none;
   width: 100%;
   cursor: pointer;
@@ -171,7 +171,8 @@ ul.add-currency-list li span {
 }
 
 .add-currency-btn.open {
-  background-color: #ffffff;
+  background-color: #00a2ff;
+  border-radius: 5%;
 }
 .add-currency-btn.open i {
   opacity: 1;
@@ -181,7 +182,8 @@ ul.add-currency-list li span {
   left: 0;
 }
 .add-currency-btn.open + ul.add-currency-list li:hover {
-  background-color: #ddd;
+  background-color: rgb(164, 249, 255);
+  border-radius: 5%;
 }
 
 @media (max-width: 600px) {
